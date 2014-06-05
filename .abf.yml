@@ -1,4 +1,5 @@
 removed_sources:
   Dist-Zilla-Plugin-GithubMeta-0.10.tar.gz: c29a4672c29821305ef50b07042622fdd9749e87
-sources:
   Dist-Zilla-Plugin-GithubMeta-0.42.tar.gz: ba97e9d07df4bad041dfddbc1a8dfe510b7525a8
+sources:
+  Dist-Zilla-Plugin-GithubMeta-0.46.tar.gz: 373f4ce995f66be8910e8f744298b7ef36b93c00

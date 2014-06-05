@@ -1,11 +1,12 @@
 %define upstream_name    Dist-Zilla-Plugin-GithubMeta
-%define upstream_version 0.42
+%define upstream_version 0.46
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Automatically include GitHub meta information in META.yml
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -49,5 +50,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc META.yml LICENSE README META.json Changes
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
 
